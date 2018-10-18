@@ -1,3 +1,16 @@
+          <!-- Sticky Footer -->
+        <footer class="sticky-footer">
+          <div class="container my-auto">
+            <div class="copyright text-center my-auto">
+              <span> Copyright &copy;2018<a target="_blank" href="http://rafelino.xyz/"> LAB TA JARKOM</a></span><br>
+     <span>Designed by <a target="_blank" href="http://rafelino.xyz/">MAHASISWA TA JARKOM</a></span>
+            </div>
+          </div>
+        </footer>
+
+      </div>
+      <!-- /.content-wrapper -->
+
   </div>
     <!-- /#wrapper -->
   <!-- Scroll to Top Button-->
@@ -25,23 +38,23 @@
     </div>
 
     <!-- Bootstrap core JavaScript-->
-    <script src="resource/vendor/jquery/jquery.min.js"></script>
-    <script src="resource/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="<?php echo base_url('resource/vendor/jquery/jquery.min.js') ?>"></script>
+    <script src="<?php echo base_url('resource/vendor/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
 
     <!-- Core plugin JavaScript-->
-    <script src="resource/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="<?php echo base_url('resource/vendor/jquery-easing/jquery.easing.min.js') ?>"></script>
 
     <!-- Page level plugin JavaScript-->
-    <script src="resource/vendor/chart.js/Chart.min.js"></script>
-    <script src="resource/vendor/datatables/jquery.dataTables.js"></script>
-    <script src="resource/vendor/datatables/dataTables.bootstrap4.js"></script>
+    <script src="<?php echo base_url('resource/vendor/chart.js/Chart.min.js') ?>"></script>
+    <script src="<?php echo base_url('resource/vendor/datatables/jquery.dataTables.js') ?>"></script>
+    <script src="<?php echo base_url('resource/vendor/datatables/dataTables.bootstrap4.js') ?>"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="resource/js/sb-admin.min.js"></script>
+    <script src="<?php echo base_url('resource/js/sb-admin.min.js') ?>"></script>
 
     <!-- Demo scripts for this page-->
-    <script src="resource/js/demo/datatables-demo.js"></script>
-    <script src="resource/js/demo/chart-area-demo.js"></script>
+    <script src="<?php echo base_url('resource/js/demo/datatables-demo.js') ?>"></script>
+    <script src="<?php echo base_url('resource/js/demo/chart-area-demo.js') ?>"></script>
 
   </body>
 

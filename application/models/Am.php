@@ -15,6 +15,18 @@ class Am extends CI_Model {
         $delete = $this->db->delete($tabel, $where);
         return $delete;
     }
+    
+    function get_list($where) {
+        $sql = " select * from ngeprint where status = '" . $where . "' ORDER BY timestamp DESC";
+        return $this->db->query($sql)->result_array();
+    }
+
+    function get_all() {
+        $sql = " select * from ngeprint ORDER BY timestamp DESC";
+        return $this->db->query($sql)->result_array();
+    }
+
+
 
 }
 

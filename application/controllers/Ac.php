@@ -9,6 +9,14 @@ class Ac extends CI_Controller {
     }
 	public function index()
 	{
-		$this->load->view('d_lunas');
+		$this->load->view('daftar');
 	}
+
+	public function list_history($j)
+	{
+		$stat = $j;
+		$this->load->view('print_history',array('daftar' => $this->am->get_list($j), 'stat' => $stat));
+	}
+
+
 }
